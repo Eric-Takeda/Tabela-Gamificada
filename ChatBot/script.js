@@ -271,7 +271,7 @@ const projetos = [
   }
 ];
 
-const API_KEY = process.env.GROQ_API_KEY;
+const API_KEY = "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";
 
 const chatBox = document.getElementById("chat-box");
 const input = document.getElementById("user-input");
