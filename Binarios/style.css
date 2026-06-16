@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:'Poppins', sans-serif;
+    background:linear-gradient(135deg, #0f172a, #1e3a8a, #020617);
+    overflow:hidden;
+}
+
+/* CONTAINER */
+.container{
+
+    width:420px;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    background:
+    rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(18px);
+
+    border:
+    1px solid rgba(255,255,255,0.1);
+
+    box-shadow:
+    0 0 40px rgba(0,0,0,0.5);
+
+    text-align:center;
+
+    animation:entrada 1s ease;
+}
+
+/* ANIMAÇÃO */
+@keyframes entrada{
+
+    from{
+        opacity:0;
+        transform:
+        translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:
+        translateY(0);
+    }
+}
+
+/* TÍTULO */
+h1{
+
+    color:white;
+
+    margin-bottom:10px;
+
+    font-size:34px;
+
+    font-weight:700;
+}
+
+/* SUBTÍTULO */
+.subtitulo{
+
+    color:
+    rgba(255,255,255,0.7);
+
+    margin-bottom:30px;
+
+    font-size:15px;
+}
+
+/* INPUT */
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:14px;
+
+    outline:none;
+
+    font-size:16px;
+
+    margin-bottom:20px;
+
+    background:
+    rgba(255,255,255,0.1);
+
+    color:white;
+
+    transition:0.3s;
+}
+
+input::placeholder{
+
+    color:
+    rgba(255,255,255,0.5);
+}
+
+input:focus{
+
+    box-shadow:
+    0 0 15px rgba(0,140,255,0.6);
+}
+
+/* BOTÃO */
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #2563eb,
+    #1d4ed8
+    );
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+button:hover{
+
+    transform:
+    translateY(-3px);
+
+    box-shadow:
+    0 0 20px rgba(37,99,235,0.8);
+}
+
+/* RESULTADO */
+.resultado{
+
+    margin-top:30px;
+
+    padding:20px;
+
+    border-radius:18px;
+
+    background:
+    rgba(255,255,255,0.05);
+
+    border:
+    1px solid rgba(255,255,255,0.08);
+}
+
+.resultado span{
+
+    color:
+    rgba(255,255,255,0.7);
+
+    font-size:14px;
+}
+
+#display{
+
+    margin-top:10px;
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:#60a5fa;
+
+    word-break:break-word;
+
+    text-shadow:
+    0 0 15px rgba(96,165,250,0.7);
+}

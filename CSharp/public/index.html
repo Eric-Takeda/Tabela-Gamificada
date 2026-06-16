@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Compilador C#</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CodeMirror -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/material.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Compilador C#</h1>
+
+    <div id="editor-wrapper">
+
+        <textarea id="code"></textarea>
+
+    </div>
+
+    <button id="run-btn">
+
+        Rodar C#
+
+    </button>
+
+    <div class="output-container">
+
+        <pre id="output">
+
+> A saída vai aparecer aqui...
+
+        </pre>
+
+    </div>
+
+</div>
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js">
+</script>
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/clike/clike.min.js">
+</script>
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/edit/closebrackets.min.js">
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

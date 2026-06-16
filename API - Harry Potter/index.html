@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Harry Potter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-glow"></div>
+
+    <header>
+        <h1>⚡ Explorador de Harry Potter ⚡</h1>
+        <p>Explore personagens do universo de Harry Potter</p>
+    </header>
+
+    <main>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Digite o nome de um personagem...">
+            <button onclick="buscarPersonagem()">
+                Buscar
+            </button>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            Carregando magia...
+        </div>
+
+        <div id="charactersContainer" class="characters-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

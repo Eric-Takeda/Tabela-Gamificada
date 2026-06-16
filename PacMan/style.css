@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    overflow: hidden;
+    text-align: center;
+
+    /* Fundo */
+    background: linear-gradient(
+        180deg,
+        #050816 0%,
+        #0b1026 50%,
+        #111827 100%
+    );
+
+    position: relative;
+}
+
+/* Estrelas */
+body::before {
+    content: "";
+
+    position: absolute;
+    width: 200%;
+    height: 200%;
+
+    background-image:
+        radial-gradient(white 1px, transparent 1px),
+        radial-gradient(#00ffff 1px, transparent 1px),
+        radial-gradient(#ff00ff 1px, transparent 1px);
+
+    background-size: 80px 80px;
+    background-position:
+        0 0,
+        40px 40px,
+        20px 20px;
+
+    opacity: 0.2;
+
+    animation: starsMove 40s linear infinite;
+}
+
+@keyframes starsMove {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-200px);
+    }
+}
+
+/* Canvas do jogo */
+#board {
+    background-color: black;
+
+    border: 4px solid #00ffff;
+
+    box-shadow:
+        0 0 10px #00ffff,
+        0 0 30px #00ffff,
+        0 0 60px rgba(0,255,255,0.5);
+
+    border-radius: 10px;
+
+    position: relative;
+    z-index: 1;
+}

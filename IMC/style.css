@@ -1,0 +1,79 @@
+main{ /*Chama a class específica*/
+    display: flex; /*Ativa o FlexBox para facilitar e organizar o layout dentro de um mesmo container*/
+    width: 100vw; /*Largura da ViewPort*/
+    height: 100vh; /*Altura do ViewPort*/
+    justify-content: center; /*Alinha os itens ao eixo principal*/
+    align-items: center; /*Alinha os itens ao centro*/
+}
+
+.container{
+    display: flex;
+    flex-direction: column; /*Define como os itens flexíveis são colocados no container, no caso, em coluna*/
+    background: rgb(255, 198, 0); /*Estelirizar o plano de funo*/
+    width: 400px; /*Largura em pixels*/
+    height: 600px; /*Altura em pixels*/
+    align-items: center;
+    justify-content: space-evenly; /*Distribui o espaço livre igualmente entre todos os itens de um container*/
+    border-radius: 20px; /*Cria as bordas de um elemento*/
+    box-shadow: 0 0 10px black; /*Efeito de sombra ao redor de um elemento*/
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif; /*Uma fonte mais escura, rem um tamanho relativo e serif um tipo de fonte de letra*/
+    border-bottom: solid 5px black; /*Define a largura, estilo e cor de um elemento*/
+    margin-bottom: 5px; /*Define o espaço na parte inferior de um elemento*/
+}
+
+.input{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between; /*Distribui os espaços de um linha de forma uniforme*/
+    align-items: center;
+}
+
+.input input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none; /*Define a cor, largura e estilo de uma borda*/
+    outline: 0; /*Desenha uma linha ao redor de um elemento fora da borda*/
+    font: bold 1.5rem serif;
+    text-align: center;
+}
+
+.input label{
+    font: bold 1.5rem serif;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem serif;
+    background: #000;
+    color: rgb(255, 198, 0); /*Define a cor*/
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer; /*Tipo do cursor do mouse exibido*/
+}
+
+.result{
+    display: flex;
+    margin-top: 20px; /*Indica o espaço acima de um elemento*/
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem serif; /*Exibição em itálico*/
+    box-shadow: 0px 0px 10px black;
+    background: #000;
+    color: rgb(255, 198, 0);
+    padding: 20px; /*Espaçamento interno entre o conteúdo de seu elemento e sua bordas*/
+    box-sizing: border-box; /*Tamanho total de um elemento é calculado, no caso, border-box, o tamanho total do elemento será exatamento o valor definido*/ 
+    user-select: none; /*Controlar se o texto de um elemento pode ser selecionado pelo usuário*/
+}

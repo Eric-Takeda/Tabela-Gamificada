@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Tabela</title>
+</head>
+<body>
+    <button id="btn-chatbot" onclick="abrirProjeto('ChatBot/index.html')">
+      <img class="normal" src="zimages/00Avatar.png">
+      <img class="acenando" src="zimages/001AVATAR.png">
+    </button>
+
+    <button id="btn-forum" onclick="window.location.href='forum.html'">💬</button>
+
+  <div id="background-animado"></div>
+    <h1>-- Projetos --</h1>
+    <p class="subtitulo">- Eric Takeda -</p>
+    <main>
+        <div id="grid-container">
+
+            <!--Linha 1 -------------++    -->
+            <section class="Pessoal" data-bg="zimages/01Lampada.png" 
+            data-desc="Liga e desliga uma lâmpada utilizando JavaScript e manipulação do DOM." onclick="abrirProjeto('Lâmpada/index.html')">
+                <span>01</span>
+                <h2>Lp</h2>
+                <p>Lâmpada</p>
+                <p>JavaScript</p>
+            </section>
+
+            <section class="col-hidden col-span16"></section>
+
+            <section class="Jogo" data-bg="zimages/02Mario.png"
+            data-desc="Jogo do Mário com JavaScript" onclick="abrirProjeto('Mario-Jump/index.html')">
+                <span>02</span>
+                <h2>Mj</h2>
+                <p>Mario-Jump</p>
+                <p>JavaScript</p>
+            </section>
+
+            <!--Linha 2 -------------++    -->
+            <section class="Pessoal" data-bg="zimages/03Semaforo.png"
+            data-desc="Simulador de semáforo utilizando JavaScript" onclick="abrirProjeto('Semaforo/index.html')">
+                <span>03</span>
+                <h2>Sf</h2>
+                <p>Semáforo</p>
+                <p>JavaScript</p>
+            </section>
+
+            <section class="Tempo" data-bg="zimages/04RelogioAnalogo.png" 
+            data-desc="Relógio análogo atualizado utilizando JavaScript" onclick="abrirProjeto('RelogioAnalogo/index.html')">
+              <span>04</span>
+              <h2>Ra</h2>
+              <p>Relógio Analogo</p>
+              <p>JavaScript</p>
+             </section>
+
+             <section class="col-hidden col-span10"></section>
+
+             <section class="Calculo" data-bg="zimages/05Calculadora.png" 
+             data-desc="Calculadora simples utilizando JavaScript" onclick="abrirProjeto('Calculadora/index.html')">
+                <span>05</span>
+                <h2>Cl</h2>
+                <p>Calculadora</p>
+                <p>JavaScript</p>
+            </section>
+
+             <section class="Calculo" data-bg="zimages/06Portal.png" 
+             data-desc="Portal simples com diversos sites utilizando JavaScript" onclick="abrirProjeto('Portal/index.html')">
+                <span>06</span>
+                <h2>P</h2>
+                <p>Portal</p>
+                <p>JavaScript</p>
+             </section>
+
+             <section class="Calculo" data-bg="zimages/07Binario.png"
+             data-desc="Conversor de números binários utilizando JavaScript" onclick="abrirProjeto('Binarios/index.html')">
+                <span>07</span>
+                <h2>Cb</h2>
+                <p>Conversor de Binarios</p>
+                <p>JavaScript</p>
+             </section>
+
+             <section class="Calculo" data-bg="zimages/08IMC.png"
+             data-desc="Calculadora de IMC utilizando JavaScript" onclick="abrirProjeto('IMC/index.html')">
+                <span>08</span>
+                <h2>Ci</h2>
+                <p>IMC</p>
+                <p>JavaScript</p>
+             </section>
+
+             <section class="Jogo" data-bg="zimages/09Velha.png"
+             data-desc="Jogo da velha simples utilizando JavaScript" onclick="abrirProjeto('JogoDaVelha/index.html')">
+                <span>09</span>
+                <h2>Jv</h2>
+                <p>Jogo da Velha</p>
+                <p>JavaScript</p>
+             </section>
+
+             <section class="Jogo" data-bg="zimages/10Cobrinha.png"
+             data-desc="Snake Game utilizando JavaScript" onclick="abrirProjeto('Snake_Game/index.html')">
+                <span>10</span>
+                <h2>Jc</h2>
+                <p>Jogo da Cobrinha</p>
+                <p>JavaScript</p>
+             </section>
+
+             <!--Linha 3 -------------++    -->
+             <section class="Pessoal" data-bg="zimages/11SlideShow.png"
+             data-desc="Pequeno SlideShow utilizando JavaScript" onclick="abrirProjeto('SlideShow/index.html')">
+                <span>11</span>
+                <h2>Ss</h2>
+                <p>Slide Show</p>
+                <p>JavaScript</p>
+             </section>
+
+             <section class="Tempo" data-bg="zimages/12RelDigital.png"
+             data-desc="Relógio digital atualizado utilizando JavaScript" onclick="abrirProjeto('RelogioDigital/index.html')">
+                <span>12</span>
+                <h2>Rd</h2>
+                <p>Relógio Digital</p>
+                <p>JavaScript</p>
+             </section>
+
+             <section class="col-hidden col-span10"></section>
+
+             <section class="Outro" data-bg="zimages/13Cronometro.png"
+             data-desc="Cronômetro simples utilizando JavaScript" onclick="abrirProjeto('Cronometro/index.html')">
+                <span>13</span>
+                <h2>Cr</h2>
+                <p>Cronômetro</p>
+                <p>JavaScript</p>
+             </section>
+
+             <section class="Outro" data-bg="zimages/14PixelArt.png"
+             data-desc="Criador de Pixel-Art simples utilizando JavaScript" onclick="abrirProjeto('Pixel-Art/index.html')">
+                <span>14</span>
+                <h2>Pa</h2>
+                <p>Pixel Art</p>
+                <p>JavaScript</p>
+             </section>
+
+             <section class="Outro" data-bg="zimages/15Paint.png"
+             data-desc="Pequeno Paint utilizando JavaScript" onclick="abrirProjeto('Paint/index.html')">
+               <span>15</span>
+               <h2>Pt</h2>
+               <p>Paint</p>
+               <p>Javascript</p>
+             </section>
+
+             <section class="Outro" data-bg="zimages/16Login.png"
+             data-desc="Login utilizando o puro FrontEnd" onclick="abrirProjeto('Login/index.html')">
+               <span>16</span>
+               <h2>Tl</h2>
+               <p>Tela de Login</p>
+               <p>JavaScript</p>
+             </section>
+
+             <section class="Jogo" data-bg="zimages/17PacMan.png"
+             data-desc="Jogo do PacMan utilizando JavaScript" onclick="abrirProjeto('PacMan/index.html')">
+               <span>17</span>
+               <h2>Pm</h2>
+               <p>Pac Man</p>
+               <p>JavaScript</p>
+             </section>
+
+             <section class="Jogo" data-bg="zimages/18Memory.png"
+             data-desc="Jogo da memória simples utilizando JavaScript" onclick="abrirProjeto('Jogo_Da_Memoria/index.html')">
+               <span>18</span>
+               <h2>Jm</h2>
+               <p>Jogo da Memória</p>
+               <p>JavaScript</p>
+             </section>
+
+             <!--Linha 4 -------------++    -->
+
+             <section class="Pessoal" data-bg="zimages/19ToDo.png"
+             data-desc="Lista de tarefas simples utilizando JavaScript" onclick="abrirProjeto('To-Do/index.html')">
+               <span>19</span>
+               <h2>Td</h2>
+               <p>To-Do List</p>
+               <p>JavaScript</p>
+             </section>
+             <section class="API" data-bg="zimages/20Moedas.png"
+             data-desc="Conversor de Moedas atualizando utilizando JavaScript + API" onclick="abrirProjeto('API - Conversor de Moedas/index.html')">
+               <span>20</span>
+               <h2>M</h2>
+               <p>Moedas</p>
+               <p>JavaScript - API</p>
+             </section>
+
+             <section class="API" data-bg="zimages/21Pokemon.png" 
+             data-desc="Pokédex atualizando utilizando JavaScript + API" onclick="abrirProjeto('API - Pokedex/index.html')">
+               <span>21</span>
+               <h2>Pk</h2>
+               <p>Pokedéx</p>
+               <p>JavaScript - API</p>
+             </section>
+
+             <section class="API" data-bg="zimages/22HarryPotter.png" 
+             data-desc="Website do Harry Potter atualizando utilizando JavaScript + API" onclick="abrirProjeto('API - Harry Potter/index.html')">
+               <span>22</span>
+               <h2>Hp</h2>
+               <p>Harry Potter</p>
+               <p>JavaScript - API</p>
+             </section>
+             
+             <section class="API" data-bg="zimages/23Countries.png"
+             data-desc="Website de países atualizado utilizando JavaScript + API" onclick="abrirProjeto('API - Paises/index.html')">
+               <span>23</span>
+               <h2>Pi</h2>
+               <p>Países Interativos</p>
+               <p>Javascript - API</p>
+             </section>
+
+             <section class="API" data-bg="zimages/24Games.png" 
+             data-desc="WebSite de Jogos atualizando utilizando JavaScript + API" onclick="abrirProjeto('WebSite_Jogo/index.html')">
+              <span>24</span>
+              <h2>Wg</h2>
+              <p>Site de Jogo</p>
+              <p>JavaScript + API</p>
+             </section>
+
+             <section class="API" data-bg="zimages/25Imposto.png" 
+             data-desc="Calculadora de Imposto de Renda utilizando JavaScript" onclick="abrirProjeto('CalculadoraDeIR/index.html')">
+                <span>25</span>
+                <h2>Ir</h2>
+                <p>Imposto de Renda</p>
+                <p>JavaScript</p>
+             </section>
+             
+             <section class="Outro" data-bg="zimages/26QR.png"
+              data-desc="Gerador de QR Code utilizando JavaScript" onclick="abrirProjeto('QRCode/index.html')">
+              <span>26</span>
+              <h2>Qr</h2>
+              <p>QR Code</p>
+              <p>JavaScript</p>
+             </section>
+
+             <section class="Outro" data-bg="zimages/27Piano.png" 
+             data-desc="Simulador de Piano utilizando JavaScript" onclick="abrirProjeto('Piano/index.html')">
+              <span>27</span>
+              <h2>Pi</h2>
+              <p>Piano</p>
+              <p>JavaScript</p>
+             </section>
+
+             <section class="Outro" data-bg="zimages/28Gradient.png"
+             data-desc="Gerador de degrade utilizando JavaScript" onclick="abrirProjeto('Gerador_Gradient/index.html')">
+                <span>28</span>
+                <h2>Gg</h2>
+                <p>Gradient</p>
+                <p>JavaScript</p>
+              </section>
+
+              <section class="Outro" data-bg="zimages/29SistemaSolar.png" 
+              data-desc="Pequeno sistema solar utilizando JavaScript" onclick="abrirProjeto('Sistema_Solar/index.html')">
+                <span>29</span>
+                <h2>Sy</h2>
+                <p>Sistema Solar</p>
+                <p>JavaScript</p>
+              </section>
+
+             <section class="Outro" data-bg="zimages/30Rubik.png"
+             data-desc="Cubo mágico 3D utilizando JavaScript" onclick="abrirProjeto('CuboMagico/index.html')">
+              <span>30</span>
+              <h2>Rc</h2>
+              <p>Cubo Mágico 3D</p>
+              <p>JavaScript</p>
+             </section>
+
+             <section class="Outro" data-bg="zimages/31Polo.png" 
+             data-desc="Imagem que vira 360° simples utilizando JavaScript" onclick="abrirProjeto('Imagem_360/index.html')">
+              <span>31</span>
+              <h2>I</h2>
+              <p>Imagem 360°</p>
+              <p>JavaScript</p>
+             </section>
+
+             <section class="Outro" data-bg="zimages/32Password.png" 
+             data-desc="Gerador de senha utilizando JavaScript" onclick="abrirProjeto('Gerador_De_Senha/index.html')">
+              <span>32</span>
+              <h2>Gs</h2>
+              <p>Gerador de Senha</p>
+              <p>JavaScript</p>
+             </section>
+
+             <section class="Outro" data-bg="zimages/33Shadow.png" 
+             data-desc="Gerador de sombreados para ediçoes utilizando JavaScript" onclick="abrirProjeto('Box_Shadow/index.html')">
+                <span>33</span>
+                <h2>Bs</h2>
+                <p>Box-Shadow</p>
+                <p>JavaScript</p>
+              </section>
+
+              <section class="Outro" data-bg="zimages/34Colors.png" 
+              data-desc="Paleta de cores utilizando JavaScript" onclick="abrirProjeto('PaletaDeCor/index.html')">
+              <span>34</span>
+              <h2>Pc</h2>
+              <p>Paleta de Cor</p>
+              <p>JavaScript</p>
+             </section>
+
+              <section class="Jogo" data-bg="zimages/35Forca.png" 
+              data-desc="Jogos da forca utilizando JavaScript" onclick="abrirProjeto('Forca/index.html')">
+               <span>35</span>
+               <h2>F</h2>
+               <p>Forca</p>
+               <p>JavaScript</p>
+              </section>
+
+              <section class="Jogo" data-bg="zimages/36CampoMinado.png" 
+              data-desc="Campo minado em JavaScript" onclick="abrirProjeto('Campo_Minado/index.html')">
+                <span>36</span>
+                <h2>Cm</h2>
+                <p>Campo Minado</p>
+                <p>JavaScript</p>
+              </section>
+
+              <!--Linha 4 -------------++    -->
+
+              <section class="Pessoal" data-bg="zimages/37Tabela.png" 
+              data-desc="Tabela Periódica em JavaScript" onclick="abrirProjeto('Tabela_Periodica/index.html')">
+                <span>37</span>
+                <h2>Tp</h2>
+                <p>Tabela Periódica</p>
+                <p>JavaScript</p>
+              </section>
+
+              <section class="API" data-bg="zimages/38SheetMonkey.png" 
+              data-desc="Tela de Login onde suas informações irão para uma planilha utilizando JavaScript + API" onclick="abrirProjeto('LoginComGSheets/index.html')">
+                <span>38</span>
+                <h2>Lg</h2>
+                <p>Login na Planilha</p>
+                <p>JavaScript + API</p>
+              </section>
+
+              <section class="API" data-bg="zimages/39MapaInterativo.png" 
+              data-desc="Mapa do mundo interativo utilizando Javascript + API" onclick="abrirProjeto('MapaInterativo/index.html')">
+               <span>39</span>
+               <h2>Mi</h2>
+               <p>Mapa Interativo</p>
+               <p>Javascript + API</p>
+             </section>
+
+              <section class="API" data-bg="zimages/40Wikipedia.png" 
+              data-desc="Buscador de conteúdo da Wikipédia utilizando JavaScript + API" onclick="abrirProjeto('Wikipedia/index.html')">
+               <span>40</span>
+               <h2>W</h2>
+               <p>Wikipedia</p>
+               <p>JavaScript + API</p>
+              </section>
+
+              <section class="API" data-bg="zimages/41GitHub.png" 
+              data-desc="Buscador de perfis no GitHub utilizando JavaScript + API" onclick="abrirProjeto('API - GitHub/index.html')">
+                <span>41</span>
+                <h2>Gh</h2>
+                <p>GitHub</p>
+                <p>JavaScript + API</p>
+              </section>
+
+              <section class="API" data-bg="zimages/42Maps.png" 
+              data-desc="Google Maps utilizando JavaScript + API" onclick="abrirProjeto('Maps/index.html')">
+                <span>42</span>
+                <h2>M</h2>
+                <p>Maps</p>
+                <p>JavaScript + API</p>
+              </section>
+
+              <section class="API" data-bg="zimages/43Tradutor.png" 
+              data-desc="Google Tradutor utilizando JavaScript + API" onclick="abrirProjeto('Tradutor/index.html')">
+              <span>43</span>
+              <h2>Tr</h2>
+              <p>Tradutor</p>
+              <p>JavaScript + API</p>
+             </section>
+
+              <section class="linguas" data-bg="zimages/44python.webp" 
+              data-desc="Compilador Python utilizando JavaScript + API" onclick="abrirProjeto('Python/index.html')">
+                <span>44</span>
+                <h2>Py</h2>
+                <p>Compilador Python</p>
+                <p>JavaScript + API</p>
+              </section>
+
+              <section class="linguas" data-bg="zimages/45java.jpg" 
+              data-desc="Compilador Java utilizando Java + JavaScript" onclick="abrirProjeto('Java/public/index.html')">
+                <span>45</span>
+                <h2>J</h2>
+                <p>Compilador Java</p>
+                <p>JS + Java</p>
+              </section>
+
+              <section class="linguas" data-bg="zimages/46CLang.jpg" 
+              data-desc="Compilador C utilizando JavaScript + MYSY2" onclick="abrirProjeto('C/public/index.html')">
+                <span>46</span>
+                <h2>C</h2>
+                <p>Compilador C</p>
+                <p>JS + MYSY2</p>
+              </section>
+
+              <section class="linguas" data-bg="zimages/47CSharp.png" 
+              data-desc="Compilador C# utilizando um SDK + JavaScript" onclick="abrirProjeto('CSharp/public/index.html')">
+                <span>47</span>
+                <h2>C#</h2>
+                <p>Compilador C#</p>
+                <p>JS + SDK</p>
+              </section>
+
+              <section class="linguas" data-bg="zimages/48cpp.jpg" 
+              data-desc="Compilador C++ utilizando JavaScript + MSYS2" onclick="abrirProjeto('CPP/public/index.html')">
+                <span>48</span>
+                <h2>C+</h2>
+                <p>Compilador C++</p>
+                <p>JS + MSYS2</p>
+              </section>
+
+              <section class="linguas" data-bg="zimages/49GO.png" 
+              data-desc="Compilador em GoLang utilizando JavaScript + GO" onclick="abrirProjeto('GoLang/public/index.html')">
+                <span>49</span>
+                <h2>Go</h2>
+                <p>Compilador GoLang</p>
+                <p>JS + GO</p>
+              </section>
+
+              <section class="linguas" data-bg="zimages/50PHP.jpg" 
+              data-desc="Compilador PHP utilizando JavaScript + PHP" onclick="abrirProjeto('PHP/public/index.html')">
+                <span>50</span>
+                <h2>Ph</h2>
+                <p>Compilador PHP</p>
+                <p>JS + PHP</p>
+              </section>
+
+              <section class="linguas" data-bg="zimages/51Ruby.webp" 
+              data-desc="Compilador Ruby utilizando JavaScript + Ruby" onclick="abrirProjeto('Ruby/public/index.html')">
+                <span>51</span>
+                <h2>Rb</h2>
+                <p>Compilador Ruby</p>
+                <p>JS + Ruby</p>
+              </section>
+
+              <section class="linguas" data-bg="zimages/52Rust.png" 
+              data-desc="Compilador Rust utilizando JavaScript + Rust" onclick="abrirProjeto('Rust/public/index.html')">
+                <span>52</span>
+                <h2>Rs</h2>
+                <p>Compilador Rust</p>
+                <p>JS + Rustup</p>
+              </section>
+
+              <section class="Jogo" data-bg="zimages/53Sudoku.png"
+              data-desc="Jogo Sudoku simples utilizando JavaScript" onclick="abrirProjeto('Sudoku/index.html')">
+                <span>53</span>
+                <h2>Su</h2>
+                <p>Sudoku</p>
+                <p>JavaScript</p>
+              </section>
+
+              <section class="Jogo" data-bg="zimages/54Xadrez.png"
+              data-desc="Xadrez simples utilizando JavaScript" onclick="abrirProjeto('Xadrez/index.html')">
+                <span>54</span>
+                <h2>X</h2>
+                <p>Xadrez</p>
+                <p>JavaScript</p>
+              </section>
+        </div>
+
+      <footer>
+          <ul>
+            <li class="Pessoal" data-categoria="Pessoal">Primeiros Projetos</li>
+            <li class="Tempo" data-categoria="Tempo">Relógios</li>
+            <li class="Calculo" data-categoria="Calculo">Matemática</li>
+            <li class="API" data-categoria="API">Projetos com API</li>
+            <li class="linguas" data-categoria="linguas">Compiladores</li>
+            <li class="Jogo" data-categoria="Jogo">Jogos</li>
+            <li class="Outro" data-categoria="Outro">Outros</li>
+          </ul>
+        </footer>
+
+    </main>
+
+    <div id="modalProjeto" class="modal">
+    <div class="modal-content">
+        <button class="fechar" onclick="fecharProjeto()">✕</button>
+
+        <iframe id="frameProjeto" src="" frameborder="0">
+        </iframe>
+    </div>
+    </div>
+
+    <button id="logout">
+        ⎋ Sair
+        </button>
+
+    <div id="tooltip-projeto"></div>
+
+    <div id="barra-anuncios">
+    <div class="slider-anuncios">
+
+        <a href="https://www.alura.com.br/" target="_blank" class="anuncio ativo">
+            <img src="zimagesAd/Alura.png">
+            <div>
+                <h3>Alura: Curso de Programação</h3>
+                <p>Aprenda HTML, CSS, JavaScript e mais →</p>
+            </div>
+        </a>
+
+
+        <a href="https://github.com/" target="_blank" class="anuncio">
+            <img src="zimagesAd/GitHub.png">
+            <div>
+                <h3>GitHub: Publique seus projetos</h3>
+                <p>Hospede gratuitamente no GitHub →</p>
+            </div>
+        </a>
+
+
+        <a href="https://firebase.google.com/" target="_blank" class="anuncio">
+            <img src="zimagesAd/Firebase.png">
+            <div>
+                <h3>FireBase: Banco de dados</h3>
+                <p>Conheça Firebase →</p>
+            </div>
+        </a>
+
+        <a href="https://www.hostinger.com/br" target="_blank" class="anuncio">
+            <img src="zimagesAd/Hostinger.png">
+            <div>
+                <h3>Hostinger: Hospedagem de Site</h3>
+                <p>Adquira seu domínio →</p>
+            </div>
+        </a>
+
+        <a href="https://noneclass.com.br/" target="_blank" class="anuncio">
+            <img src="zimagesAd/NoNeClass.jpg">
+            <div>
+                <h3>NoNeClass: Criação de Jogos</h3>
+                <p>Aprenda a criar seu próprios jogos →</p>
+            </div>
+        </a>
+
+        <a href="https://www.codecademy.com/" target="_blank" class="anuncio">
+            <img src="zimagesAd/Codecademy.jpg">
+            <div>
+                <h3>Codecademy: Aprenda Programação</h3>
+                <p>Aprenda programação do zero →</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+<script type="module" src="js/logout.js"></script>
+<script type="module" src="js/auth.js"></script>
+</body>
+</html>

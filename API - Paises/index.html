@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorador de Países</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="background"></div>
+
+  <header>
+    <h1>🌍 Países</h1>
+    <p>Explore países do mundo usando API</p>
+  </header>
+
+  <main>
+
+    <div class="search-box">
+      <input type="text"  id="searchInput" placeholder="Digite o nome de um país...">
+
+      <button onclick="buscarPais()">
+        Buscar
+      </button>
+    </div>
+
+    <div id="loading" class="loading hidden">
+      Carregando países...
+    </div>
+
+    <div id="countriesContainer" class="countries-container"></div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

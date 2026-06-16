@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portal Takeda</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+    <aside class="sidebar">
+        <img src="./image/LogoEditada.png" class="ImgEfeito">
+        <button class="psBotao entrada">
+            <img src="./image/PlayStation-Logo.png">
+        </button>
+
+        <div class="menu">
+            <a href="https://www.plurall.net/" target="abc">
+                <button class="botao plurall" onclick="mostrarIframe()">
+                    <img src="./image/transferir.png" class="logo">
+                    <span>Plurall</span>
+                </button>
+            </a>
+
+            <a href="https://www.colegioprogresso.g12.br/" target="abc">
+                <button class="botao progresso" onclick="mostrarIframe()">
+                    <img src="./image/progresso.avif" class="logo">
+                    <span>Colégio Progresso</span>
+                </button>
+            </a>
+
+            <a href="https://pt.wikipedia.org/wiki/PlayStation" target="abc">
+                <button class="botao console" onclick="mostrarIframe()">
+                    <img src="./image/console.png" class="logo">
+                    <span>PlayStation</span>
+                </button>
+            </a>
+
+            <a href="https://pt.wikipedia.org/wiki/Phil_Collins" target="abc">
+                <button class="botao collins" onclick="mostrarIframe()">
+                    <img src="./image/collins.webp" class="logo">
+                    <span>Phil Collins</span>
+                </button>
+            </a>
+
+            <button class="botao cadastro" onclick="mostrarFormulario()">
+                <i class="fa-solid fa-user"></i>
+                <span>Cadastre-se</span>
+            </button>
+        </div>
+    </aside>
+
+    <main class="conteudo">
+        <div class="videoContainer">
+            <video controls autoplay loop muted class="video">
+                <source src="./audio/Jogar.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <form action="https://api.sheetmonkey.io/form/75uVYLu9tKbyujn6gxykeN" method="post" id="formulario">
+            <h2>Cadastro</h2>
+
+            <label>Nome Completo</label>
+            <input type="text" required name="Nome">
+
+            <label>Data de Nascimento</label>
+            <input type="date" required name="DataDeNascimento">
+
+            <label>Nome de Usuário</label>
+            <input type="text" required name="Username">
+
+            <button type="submit">Enviar Cadastro</button>
+        </form>
+
+        <iframe name="abc" id="iframe"></iframe>
+    </main>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

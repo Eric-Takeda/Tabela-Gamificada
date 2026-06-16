@@ -1,0 +1,50 @@
+body{
+
+    background:#1e1e1e;
+    color:white;
+
+    font-family:Arial;
+
+    display:flex;
+    justify-content:center;
+
+    padding:40px;
+}
+
+.container{
+
+    width:800px;
+}
+
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:20px;
+
+    background:#0078ff;
+
+    border:none;
+
+    color:white;
+
+    cursor:pointer;
+}
+
+#output{
+
+    background:#111;
+
+    padding:20px;
+
+    margin-top:20px;
+
+    min-height:150px;
+}
+
+.CodeMirror{
+
+    height:400px;
+}

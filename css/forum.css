@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#050816;
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+/* Título igual tabela */
+h1{
+    font-size:clamp(2rem,5vw,4rem);
+    margin-bottom:30px;
+    letter-spacing:4px;
+    text-transform:uppercase;
+
+    text-shadow:
+        0 0 10px rgba(255,255,255,0.4),
+        0 0 20px rgba(0,229,255,0.4),
+        0 0 40px rgba(0,229,255,0.2);
+}
+
+/* Botão voltar estilo neon */
+#btn-voltar{
+    position:fixed;
+    top:20px;
+    left:20px;
+
+    padding:10px 16px;
+
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.15);
+
+    background:rgba(255,255,255,0.08);
+    color:white;
+
+    cursor:pointer;
+    backdrop-filter:blur(12px);
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:0 0 10px rgba(0,229,255,0.15);
+}
+
+#btn-voltar:hover{
+    transform:scale(1.08);
+    background:rgba(0,229,255,0.15);
+    box-shadow:0 0 15px #00e5ff;
+}
+
+/* Caixa de comentário */
+#formComentario{
+    width:90%;
+    max-width:700px;
+
+    margin:0 auto 30px;
+
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.1);
+
+    backdrop-filter:blur(15px);
+
+    padding:20px;
+    border-radius:15px;
+
+    box-shadow:0 0 20px rgba(0,229,255,0.08);
+}
+
+#textoComentario{
+    width:100%;
+    height:120px;
+
+    background:rgba(0,0,0,0.3);
+    border:1px solid rgba(255,255,255,0.1);
+
+    color:white;
+
+    padding:12px;
+    border-radius:10px;
+
+    resize:none;
+
+    outline:none;
+}
+
+#textoComentario:focus{
+    border-color:#00e5ff;
+    box-shadow:0 0 10px rgba(0,229,255,0.3);
+}
+
+/* botão publicar */
+#btnPublicar{
+    margin-top:12px;
+
+    padding:10px 20px;
+
+    border:none;
+    border-radius:10px;
+
+    cursor:pointer;
+
+    background:rgba(0,229,255,0.15);
+    color:white;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+#btnPublicar:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 15px #00e5ff;
+}
+
+/* lista de comentários */
+#listaComentarios{
+    width:90%;
+    max-width:700px;
+
+    margin:0 auto;
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+/* card de comentário */
+.comentario{
+    text-align:left;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.1);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 0 10px rgba(0,229,255,0.05);
+}
+
+/* efeito hover igual cards da tabela */
+.comentario:hover{
+    transform:scale(1.02);
+    transition:.3s;
+
+    box-shadow:
+        0 0 10px rgba(0,229,255,0.2),
+        0 0 25px rgba(0,229,255,0.1);
+}
+
+.comentario{
+    position:relative;
+}
+
+/* botões base */
+.btn-editar,
+.btn-excluir{
+    margin-top:10px;
+    margin-right:8px;
+
+    padding:6px 12px;
+
+    border:none;
+    border-radius:8px;
+
+    font-size:0.8rem;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    backdrop-filter:blur(10px);
+}
+
+/* EDITAR (cyan neon igual seu site) */
+.btn-editar{
+    background:rgba(0,229,255,0.15);
+    color:#00e5ff;
+
+    border:1px solid rgba(0,229,255,0.3);
+}
+
+.btn-editar:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 10px #00e5ff;
+    background:rgba(0,229,255,0.25);
+}
+
+/* EXCLUIR (vermelho neon perigoso) */
+.btn-excluir{
+    background:rgba(255,77,77,0.15);
+    color:#ff4d4d;
+
+    border:1px solid rgba(255,77,77,0.3);
+}
+
+.btn-excluir:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 10px #ff4d4d;
+    background:rgba(255,77,77,0.25);
+}

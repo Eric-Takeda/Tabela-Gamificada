@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Configura a página para ser responsiva -->
+    <title>Jogo da Forca</title>
+    <!-- Título da página -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Importa o arquivo de estilos CSS -->
+  </head>
+  <body>
+    <div class="game-modal">
+      <div class="content">
+        <img src="#" alt="gif" />
+        <!-- Imagem para representar a condição do jogo -->
+        <h4>Fim de Jogo!</h4>
+        <!-- Título de mensagem do jogo -->
+        <p>A palavra correta era: <b>palavra</b></p>
+        <!-- Mostra a palavra correta -->
+        <button class="play-again">Jogar Novamente</button>
+        <!-- Botão de reiniciar -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hangman-box">
+        <img src="images/hangman-0.svg" draggable="false" alt="hangman-img" />
+        <!-- Imagem do boneco -->
+      </div>
+      <div class="game-box">
+        <ul class="word-display"></ul>
+        <!-- Lista para exibir a palavra oculta -->
+        <h4 class="hint-text">Dica: <b></b></h4>
+        <!-- Exibe uma dica -->
+        <h4 class="guesses-text">Tentativas: <b></b></h4>
+        <!-- Exibe número de erros -->
+        <div class="keyboard"></div>
+        <!-- Teclado virtual para a entrada de letras -->
+      </div>
+    </div>
+
+    <!--
+    <script src="js/word-list-dev.js"></script>
+    -->
+
+    <script src="js/word-list.js" defer></script>
+    <!-- Carrega o script de lista de palavras -->
+    <script src="js/script.js" defer></script>
+    <!-- Carrega o script principal do jogo -->
+  </body>
+</html>

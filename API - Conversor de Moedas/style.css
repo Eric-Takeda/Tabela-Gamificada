@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Outfit', sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    background:
+    radial-gradient(circle at top left, #1d4d3d, transparent 30%),
+    radial-gradient(circle at bottom right, #0b1f1a, transparent 30%),
+    linear-gradient(135deg, #07110e, #102820);
+
+    color:white;
+}
+
+h1{
+    margin-bottom:25px;
+    font-size:2.5rem;
+    letter-spacing:1px;
+    text-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+
+.box{
+    width:420px;
+
+    background:rgba(255,255,255,0.05);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(10px);
+
+    padding:30px;
+
+    border-radius:25px;
+
+    box-shadow:
+    0 0 25px rgba(0,0,0,0.4),
+    inset 0 0 10px rgba(255,255,255,0.03);
+}
+
+label{
+    display:block;
+    margin:12px 0 8px;
+    font-size:0.95rem;
+    color:#b7d8ca;
+}
+
+input,
+select{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:15px;
+
+    background:#14261f;
+
+    color:white;
+
+    font-size:1rem;
+
+    outline:none;
+
+    transition:0.25s;
+}
+
+input:focus,
+select:focus{
+    transform:scale(1.02);
+
+    box-shadow:
+    0 0 0 3px rgba(53, 151, 115, 0.3),
+    0 0 18px rgba(53, 151, 115, 0.25);
+}
+
+select{
+    cursor:pointer;
+}
+
+#button{
+    margin-top:22px;
+
+    background:linear-gradient(135deg,#1d7a59,#145943);
+
+    font-weight:700;
+
+    letter-spacing:0.5px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+#button:hover{
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 8px 18px rgba(0,0,0,0.35),
+    0 0 15px rgba(41, 184, 129, 0.35);
+}
+
+#display{
+    margin-top:25px;
+
+    width:420px;
+
+    background:rgba(255,255,255,0.05);
+
+    border-radius:20px;
+
+    padding:18px;
+
+    text-align:center;
+
+    line-height:1.6;
+
+    color:#d9fff0;
+
+    box-shadow:0 0 15px rgba(0,0,0,0.25);
+}

@@ -1,0 +1,19 @@
+*{ /*Seleciona todos os elementos da página, sem execssão*/
+    margin: 0; /*Remove todas as margens*/
+    padding: 0; /*Remove os espaçamentos internos*/
+    box-sizing: border-box; /*Calcula a altura e  largura, incluíndo o padding e a borda*/
+    background-color: white;
+}
+
+main{ /*Por ser uma tag semântica, pode estilá-la diretamente no CSS*/
+    display: flex; /*Usa o FlexBox, que facilita o alinhamento do conteúdo*/
+    height: 100vh; /*Altura da janela (Viewport)*/
+    flex-direction: column; /*Alinha em coluna*/
+    align-items: center; /*Alinha horizontalmente no centro*/
+    justify-content: center; /*Alinha verticalmente no centro*/
+    gap: 5vh; /*O espaçamento dos itens será de 5% da altura da tela*/
+}
+
+.button{ /*Chama a class Button*/
+    width: 80px; /*Largura da 80px*/
+}
