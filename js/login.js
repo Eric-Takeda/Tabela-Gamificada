@@ -27,7 +27,7 @@ async function login(){
     );
 
     window.location.href =
-    "../index.html";
+    "./index.html";
 
   }catch{
 
