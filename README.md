@@ -14,7 +14,54 @@
 <p>Tabela Periódica de diversos projetos, com ChatBot, fórum, login, cadastro, filtros e muitos outros...</p>
 
 <footer>
+Links:
+  
+Node.js: 
+https://nodejs.org/pt-br
+MSYS2:
+https://www.msys2.org/
+Java JDK:
+https://www.oracle.com/java/technologies/downloads/
+GO:
+https://go.dev/
+PHP:
+https://www.php.net/
+Ruby:
+https://rubyinstaller.org/
+Rust:
+https://rust-lang.org/
+
+Groq API:
+https://groq.com/
+Firebase:
+https://firebase.google.com/?hl=pt-br
+Sheet Monkey API:
+https://sheetmonkey.io/pt-br
+Rest Countries API:
+https://restcountries.com/
+Pokémon API:
+https://pokeapi.co/
+Rawg API:
+https://rawg.io/
+Google Maps API:
+https://developers.google.com/maps/apis-by-platform?hl=pt-br
+GitHub API:
+https://docs.github.com/en/rest?apiVersion=2026-03-10
+Google Tradutor API:
+https://docs.cloud.google.com/translate/docs/reference/rest
+Wikipedia API:
+https://en.wikipedia.org/w/api.php
+Mapa do Mundo em Arquivo SVG:
+https://simplemaps.com/resources/svg-world
+Frankfurter API:
+https://frankfurter.dev/
+Harry Potter API:
+https://hp-api.onrender.com/
+
+
+<p>
 Link do Projeto:
 https://eric-takeda.github.io/Tabela-Gamificada/
+</p>
 </footer>
 
