@@ -15,48 +15,48 @@
 
 <footer>
 Links:
-  
-Node.js: 
-https://nodejs.org/pt-br
-MSYS2:
-https://www.msys2.org/
-Java JDK:
-https://www.oracle.com/java/technologies/downloads/
-GO:
-https://go.dev/
-PHP:
-https://www.php.net/
-Ruby:
-https://rubyinstaller.org/
-Rust:
-https://rust-lang.org/
-
+ 
+<p>Node.js: 
+https://nodejs.org/pt-br</p>
+<p>MSYS2:
+https://www.msys2.org/</p>
+<p>Java JDK:
+https://www.oracle.com/java/technologies/downloads/</p>
+<p>GO:
+https://go.dev/</p>
+<p>PHP:
+https://www.php.net/</p>
+<p>Ruby:
+https://rubyinstaller.org/</p>
+<p>Rust:
+https://rust-lang.org/</p>
+<p>
 Groq API:
-https://groq.com/
-Firebase:
-https://firebase.google.com/?hl=pt-br
-Sheet Monkey API:
-https://sheetmonkey.io/pt-br
-Rest Countries API:
-https://restcountries.com/
-Pokémon API:
-https://pokeapi.co/
-Rawg API:
-https://rawg.io/
-Google Maps API:
-https://developers.google.com/maps/apis-by-platform?hl=pt-br
-GitHub API:
-https://docs.github.com/en/rest?apiVersion=2026-03-10
-Google Tradutor API:
-https://docs.cloud.google.com/translate/docs/reference/rest
-Wikipedia API:
-https://en.wikipedia.org/w/api.php
-Mapa do Mundo em Arquivo SVG:
-https://simplemaps.com/resources/svg-world
-Frankfurter API:
-https://frankfurter.dev/
-Harry Potter API:
-https://hp-api.onrender.com/
+https://groq.com/</p>
+<p>Firebase:
+https://firebase.google.com/?hl=pt-br</p>
+<p>Sheet Monkey API:
+https://sheetmonkey.io/pt-br</p>
+<p>Rest Countries API:
+https://restcountries.com/</p>
+<p>Pokémon API:
+https://pokeapi.co/</p>
+<p>Rawg API:
+https://rawg.io/</p>
+<p>Google Maps API:
+https://developers.google.com/maps/apis-by-platform?hl=pt-br</p>
+<p>GitHub API:
+https://docs.github.com/en/rest?apiVersion=2026-03-10</p>
+<p>Google Tradutor API:
+https://docs.cloud.google.com/translate/docs/reference/rest</p>
+<p>Wikipedia API:
+https://en.wikipedia.org/w/api.php</p>
+<p>Mapa do Mundo em Arquivo SVG:
+https://simplemaps.com/resources/svg-world</p>
+<p>Frankfurter API:
+https://frankfurter.dev/</p>
+<p>Harry Potter API:
+https://hp-api.onrender.com/</p>
 
 
 <p>
